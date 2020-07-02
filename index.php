@@ -15,19 +15,19 @@
       <div class="row">
         <div class="col-6 coffee-list"> <!--левая сторона (выбор кофе)-->
         <div class="row flex-column justify-content-around">
-          <div class="coffee-item" onclick="cookCoffee(50,'Американо')">
+          <div class="coffee-item" onclick="cookCoffee(50,'Американо', this)">
             <img src="img/americano.png" alt="Американо">
             <span>Американо-50р</span>
           </div>
-         <div class="coffee-item" onclick="cookCoffee(92,'Каппучино')" >
+         <div class="coffee-item" onclick="cookCoffee(92,'Каппучино', this)" >
             <img src="img/cappuccino.png" alt="Каппучино">
             <span>Каппучино-92р</span>
           </div>
-         <div class="coffee-item" onclick="cookCoffee(66,'Эспрессо')" >
+         <div class="coffee-item" onclick="cookCoffee(66,'Эспрессо', this)" >
             <img src="img/espresso.png" alt="Эспрессо">
             <span>Эспрессо-66р</span>
           </div>
-          <div class="coffee-item" onclick="cookCoffee(128,'Латте')">
+          <div class="coffee-item" onclick="cookCoffee(128,'Латте', this)">
             <img src="img/latte.jpg" alt="Латте">
             <span>Латте-128р</span>
           </div>
@@ -63,7 +63,11 @@
         </div>
       </div>
     </div>
-    
+    <div class="money">
+      <img src="img/100rub.jpg" alt="">
+      <img src="img/500rub.jpg" alt="">
+      <img src="img/50rub.jpg" alt="">
+    </div>
 
     <!-- Optional JavaScript -->
     <script src= "script.js"></script>
